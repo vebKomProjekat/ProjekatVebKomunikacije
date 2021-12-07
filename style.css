@@ -137,4 +137,9 @@ p{
 		font-size: 25pt;
 		padding-top: 60%;
 	}
+	.pozadina{
+		background-image: url("images/pozadina1.jpg");
+		background-size: cover;
+		background-position-x: center;
+	}
 }
