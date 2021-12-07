@@ -111,3 +111,30 @@ p{
 .rotirano{
 	transform: rotate(90deg);
 }
+@media only screen and (max-width: 600px) {
+	nav{
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.navbar{
+		display: block;
+		color: white;
+		height: 30vh;
+		background-color: #222;
+	}
+	ul{
+		display: block;
+		margin-left: 30px;
+	}
+	li{
+		padding: 5px;
+	}
+	.navbar p{
+		margin-left: 10px;
+	}
+	.pozadina .pozicija{
+		font-size: 25pt;
+		padding-top: 60%;
+	}
+}
